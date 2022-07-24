@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package user_service.model.v1;
+
+option go_package = "github.com/theartofdevel/grpc-contracts/gen/go/user_service/model/v1;proto_user_model";
+
+message User {
+  string id = 1;
+  string name = 2;
+  uint32 age = 3;
+  string email = 4;
+}
