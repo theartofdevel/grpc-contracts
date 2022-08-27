@@ -3,7 +3,7 @@ MAKE_PATH=$(GOPATH)/bin:/bin:/usr/bin:/usr/local/bin:$PATH
 .PHONY: all
 all: clean format gen lint
 
-BUF_VERSION=v1.6.0
+BUF_VERSION=1.6.0
 
 .PHONY: buf-install
 buf-install:
